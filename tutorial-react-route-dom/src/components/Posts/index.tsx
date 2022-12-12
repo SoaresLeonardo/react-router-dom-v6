@@ -3,7 +3,7 @@ import { useParams, useSearchParams, Outlet } from 'react-router-dom';
 export const Posts = () => {
     const params = useParams();
     const { id } = params;
-    const [ qs ] = useSearchParams()
+    const [ qs ] = useSearchParams();
 
     return(
         <div>
